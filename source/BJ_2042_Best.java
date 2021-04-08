@@ -89,7 +89,7 @@ public class BJ_2042_Best {
 	// 101, 110, 1000, 10000 ..
 	public static void update(int pos, long val) {
 		//++pos;
-		while (pos < fwTree.length) {
+		while (pos < fwTree.length) { 
 			fwTree[pos] += val;
 			pos += (pos & -pos); // 맨 마지막 비트를 스스로에게 더해 준다.
 		}
