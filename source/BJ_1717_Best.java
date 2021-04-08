@@ -86,6 +86,6 @@ public class BJ_1717_Best {
             parent[b] = a;
         }else{
         	parent[a] = b;
-        }
+        } 
     }
 }
