@@ -28,7 +28,7 @@ public class BJ_5052_Best1 {
 
 // ∆Æ∂Û¿Ã
 class Trie { 
-
+ 
 	static boolean isConsistency = true;
 	boolean isWord = false;
 	boolean existChild = false;
