@@ -23,18 +23,18 @@ public class CreateTestCase {
 		
 		// [1,10] 사이의 난수 생성
 		int T = random.nextInt(10) + 1;
-		//System.out.println(T);
+		System.out.println(T);
 		
 		for (int test_case = 0; test_case < T; test_case++) {
 			// [1, 100] 사이의 난수 생성
 			int N = random.nextInt(100) + 1;
-			//System.out.println(N);
-			for (int i=0; i<N; i++) {
-				// [0, 100] 사이의 난수를 공백을 두고 출력
-				System.out.print(random.nextInt(101)+" ");
-			}
+			System.out.println(N);
+//			for (int i=0; i<N; i++) {
+//				// [0, 100] 사이의 난수를 공백을 두고 출력
+//				System.out.print(random.nextInt(101)+" ");
+//			}
 			
-			System.out.println();
+			//System.out.println();
 		}
 	}
 
