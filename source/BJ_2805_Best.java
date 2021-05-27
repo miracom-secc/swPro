@@ -49,7 +49,7 @@ public class BJ_2805_Best {
 	
 	static long bs(long H) {
 		long ret = -1;
-		long s = 0;
+		long s = 0; 
 		long e = H;
 		
 		while (s <= e) {
