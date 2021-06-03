@@ -23,7 +23,7 @@ public class BJ_2616_Best {
 	public static void main(String[] args) throws Exception {
 		N = Integer.parseInt(br.readLine());
 		
-		arr = new int[N+1];
+		arr = new int[N+1]; 
 		sum = new int[N+1];
 		dp = new int[4][N+1];
 		
