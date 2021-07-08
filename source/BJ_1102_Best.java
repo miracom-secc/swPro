@@ -70,7 +70,7 @@ public class BJ_1102_Best {
 		if(cnt >= P ) return 0;		//비용이 0일때, 발전기 상태 NYN, P=1이면, 비용은 0
 		if(dp[powerStatus] != -1) return dp[powerStatus];
 		
-		dp[powerStatus] = init;
+		dp[powerStatus] = init; 
 		
 		for(int i=0; i<N; i++) {
 			// pNum의 발전소가 켜져있을 때
